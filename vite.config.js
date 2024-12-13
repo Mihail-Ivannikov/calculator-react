@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/calculator-react/',
   plugins: [react()],
   server: {
     // Disable cache in development for quicker testing and reloading
