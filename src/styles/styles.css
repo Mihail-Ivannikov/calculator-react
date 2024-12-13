@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Lexend:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+  background-color: aliceblue;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  background-color: aliceblue;
+  outline: none;
+  padding: 50px 20px;
+  width: 420px;
+  border-radius: 10px;
+  color: black;
+  font-size: 48px;
+  text-align: right;
+  color: rgb(0, 98, 122);
+  font-family: 'Electrolize', sans-serif;
+}
+
+.calculator-keyboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.calculator {
+  margin: auto;
+  align-items: center;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.calculator-button {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  font-size: 36px;
+  background-color: aliceblue;
+  color: rgb(0, 98, 122);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
